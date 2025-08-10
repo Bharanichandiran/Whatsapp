@@ -5,7 +5,7 @@ import Sidebar, { Conversation } from "./components/Sidebar";
 import ChatWindow, { Message } from "./components/ChatWindow";
 import VerticalSidebar from "./components/VerticalSidebar";
 
-const BASE_URL = "http://localhost:4000/api/chats";
+const BASE_URL = "https://whatsapp-zwp3.onrender.com/api/chats";
 
 function App() {
   const [conversations, setConversations] = useState<Conversation[]>([]);
